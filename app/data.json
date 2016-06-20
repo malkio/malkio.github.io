@@ -8,9 +8,9 @@
 			       "url": "http://localhost:9000/here",
 			       "list":[
 				       {
-					       "title":"Lusty Leopard",
-					       "description":"Lorem ipsum dolor",
-					       "url":"http://localhost:9000/this",
+					       "title":"Tying the Knot",
+					       "description":"Responsive Bootstrap Template",
+					       "url":"http:tieknot.bitbucket.org",
 					       "img":"portfolio_01.jpg"
 				       },
 				       {
@@ -27,50 +27,7 @@
  				       }
 
 			       ]
-		       },
-			{
-				"name":"Frontend",
-				"img": "portfolio_01.jpg",
-				"url": "http://localhost:9000/here",
-				"list":[
-					{
-						"title":"Lusty Leopard",
-						"description":"Lorem ipsum dolor",
-						"url":"http://localhost:9000",
-						"img":"portfolio_01.jpg"
-					},
-					{
-						"title":"Lusty Leopard",
-						"description":"Lorem ipsum dolor",
-						"url":"http://localhost:9000",
-						"img":"portfolio_02.jpg"
-					},
-					{
-						"title":"Lusty Leopard",
-						"description":"Lorem ipsum dolor",
-						"url":"http://localhost:9000",
-						"img":"portfolio_03.jpg"
-					},
-					{
-						"title":"Lusty Leopard",
-						"description":"Lorem ipsum dolor",
-						"url":"http://localhost:9000",
-						"img":"portfolio_04.jpg"
-					},
-					{
-						"title":"Lusty Leopard",
-						"description":"Lorem ipsum dolor",
-						"url":"http://localhost:9000",
-						"img":"portfolio_05.jpg"
-					},
-					{
-						"title":"Lusty Leopard",
-						"description":"Lorem ipsum dolor",
-						"url":"http://localhost:9000",
-						"img":"portfolio_06.jpg"
-					}
-				]
-			}
+		       }
 
 		]
 	},
@@ -89,6 +46,8 @@
 				"list": [
 					"mysql",
 					"mongodb",
+					"couchdb",
+					"pouchdb",
 					"sqlite (ANDROID)",
 					"backendless (BAAS)",
 					"parse (BAAS)"
@@ -100,6 +59,7 @@
 					"sass (CSS)",
 					"less (CSS)",
 					"babel (JAVASCRIPT)",
+					"typescript (JAVASCRIPT)"
 					"coffeescript (JAVASCRIPT)"
 				]
 			},
@@ -156,7 +116,7 @@
 					"markdown",
 					"regedit",
 
-					"solid",
+					"SOLID",
 					"oop",
 					"mvc",
 					"mvvm",
