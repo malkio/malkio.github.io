@@ -14780,7 +14780,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 				var _workThumbnail = domWorkThumbnail(work);
 				$workList.append(_workThumbnail);
 			});
-			$workList.prepend( domWorkThumbnail(category, true) );
+			//$workList.prepend( domWorkThumbnail(category, false) );
 			$works.find('.container').append($workList);
 		});
 	}

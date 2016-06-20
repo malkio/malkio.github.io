@@ -11,21 +11,8 @@
 					       "title":"Tying the Knot",
 					       "description":"Responsive Bootstrap Template",
 					       "url":"http:tieknot.bitbucket.org",
-					       "img":"portfolio_01.jpg"
-				       },
-				       {
-					       "title":"Lusty Leopard",
-					       "description":"Lorem ipsum dolor",
-					       "url":"http://localhost:9000",
-					       "img":"portfolio_02.jpg"
-				       },
-				       {
- 					       "title":"Lusty Leopard",
- 					       "description":"Lorem ipsum dolor",
- 					       "url":"http://localhost:9000",
- 					       "img":"portfolio_02.jpg"
- 				       }
-
+					       "img":"portfolio-tying-the-knot.jpg"
+				       }
 			       ]
 		       }
 
@@ -59,7 +46,7 @@
 					"sass (CSS)",
 					"less (CSS)",
 					"babel (JAVASCRIPT)",
-					"typescript (JAVASCRIPT)"
+					"typescript (JAVASCRIPT)",
 					"coffeescript (JAVASCRIPT)"
 				]
 			},
