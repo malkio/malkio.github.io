@@ -1,0 +1,133 @@
+{
+	"works":{
+		"total_works":0,
+		"categories":[
+			{
+			       "name":"Recent",
+			       "img": "portfolio_01.jpg",
+			       "url": "http://localhost:9000/here",
+			       "list":[
+				       {
+					       "title":"Tying the Knot",
+					       "description":"Responsive Bootstrap Template",
+					       "url":"http:tieknot.bitbucket.org",
+					       "img":"portfolio_01.jpg"
+				       },
+				       {
+					       "title":"Lusty Leopard",
+					       "description":"Lorem ipsum dolor",
+					       "url":"http://localhost:9000",
+					       "img":"portfolio_02.jpg"
+				       },
+				       {
+ 					       "title":"Lusty Leopard",
+ 					       "description":"Lorem ipsum dolor",
+ 					       "url":"http://localhost:9000",
+ 					       "img":"portfolio_02.jpg"
+ 				       }
+
+			       ]
+		       }
+
+		]
+	},
+	"background": {
+		"categories": [
+			{
+				"name" :"Languages",
+				"list": [
+					"javascript",
+					"java (android)",
+					"php"
+				]
+			},
+			{
+				"name" :"Databases",
+				"list": [
+					"mysql",
+					"mongodb",
+					"couchdb",
+					"pouchdb",
+					"sqlite (ANDROID)",
+					"backendless (BAAS)",
+					"parse (BAAS)"
+				]
+			},
+			{
+				"name" :"Preprocessors",
+				"list": [
+					"sass (CSS)",
+					"less (CSS)",
+					"babel (JAVASCRIPT)",
+					"typescript (JAVASCRIPT)"
+					"coffeescript (JAVASCRIPT)"
+				]
+			},
+			{
+				"name" :"Tools",
+				"list": [
+					"git",
+					"parse cloudcode",
+					"terminal (Unix)",
+					"grunt",
+					"yoeman",
+					"jekyll",
+					"bower"
+				]
+			},
+			{
+				"name" :"Others",
+				"list": [
+					"jquery",
+					"bootstrap",
+					"phalcon",
+					"codeigniter",
+					"underscore",
+					"backbone",
+					"nodejs",
+
+					"bower",
+					"homebrew",
+
+					"jade test",
+					"linters",
+
+					"heroku",
+					"rackspace",
+					"fortrabbit",
+					"digitalocean",
+					"mongolabs",
+
+					"git-pages",
+					"magento",
+					"wordpress",
+					"google maps android",
+					"google maps javascript",
+					"google maps geocoding",
+					"google places",
+
+					"youtube api",
+					"nodewebkit",
+					"twitch api",
+					"openweather api",
+
+					"ajax",
+					"json",
+					"markdown",
+					"regedit",
+
+					"SOLID",
+					"oop",
+					"mvc",
+					"mvvm",
+					"constructor pattern",
+					"modular pattern",
+					"observer pattern",
+					"factory pattern",
+					"revealing module"
+				]
+			}
+
+		]
+	}
+}
