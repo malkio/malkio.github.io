@@ -165,6 +165,12 @@ grunt.registerTask('build', [
 	'jshint',
 	'sass:dist'
 ]);
+
+grunt.registerTask('publish', '' , function(){
+	var exec = require('child_process').execSync;
+	var result = exec("git push origin `git subtree split --prefix release master`:gh-pages --force", {encoding: 'utf8'});
+	grunt.log.writeln(result);
+});
 grunt.registerTask('build:release', [
 	'clean:release', 	// delete release folder
 	'copy:release',		// copy html,js files from dist to release
@@ -173,8 +179,9 @@ grunt.registerTask('build:release', [
 	'cssmin:release', 	// minify css
 	'processhtml:release',	// replace script blocks with minified versions
 	'htmlmin:release'	// minif html
-
 ]);
+
+
 grunt.registerTask('server', [
 	'express',
 	'open',
