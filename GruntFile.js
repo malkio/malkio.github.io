@@ -166,11 +166,15 @@ grunt.registerTask('build', [
 	'sass:dist'
 ]);
 
-grunt.registerTask('publish', '' , function(){
+// username.github.io will show master branch
+// username.github.io/projectname will show gh-pages
+grunt.registerTask('publish:malkio', '' , function(){
 	var exec = require('child_process').execSync;
-	var result = exec("git push origin `git subtree split --prefix release master`:gh-pages --force", {encoding: 'utf8'});
+	var result = exec("git push origin `git subtree split --prefix release master`:master --force", {encoding: 'utf8'});
 	grunt.log.writeln(result);
 });
+
+
 grunt.registerTask('build:release', [
 	'clean:release', 	// delete release folder
 	'copy:release',		// copy html,js files from dist to release
