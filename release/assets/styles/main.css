@@ -364,7 +364,7 @@ Base styles: opinionated defaults
 html {
   max-width: 100%;
   overflow-x: hidden;
-  color: #222;
+  color: #384452;
   font-size: 1em;
   line-height: 1.4; }
 
@@ -695,14 +695,15 @@ section {
   box-sizing: border-box; }
   #landing > div {
     position: absolute;
-    top: 40%;
-    width: 100%;
-    left: 0%; }
-    #landing > div h1 {
+    top: 5%;
+    left: 50%; }
+    #landing > div > div {
+      left: -50%; }
+    #landing > div h3 {
       background-color: #580000;
       padding: 5px 10px;
-      display: inline;
-      font-size: 3em;
+      text-align: center;
+      display: inline-block;
       color: #fff; }
 
 #canvas {
