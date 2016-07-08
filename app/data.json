@@ -3,18 +3,31 @@
 		"total_works":0,
 		"categories":[
 			{
-			       "name":"Recent",
-			       "img": "portfolio_01.jpg",
-			       "url": "http://localhost:9000/here",
-			       "list":[
-				       {
-					       "title":"Tying the Knot",
-					       "description":"Responsive Bootstrap Template",
-					       "url":"http://tieknot.bitbucket.org/app",
-					       "img":"portfolio-tying-the-knot.jpg"
-				       }
-			       ]
-		       }
+				"name":"Recent",
+				"img": "portfolio_01.jpg",
+				"url": "http://localhost:9000/here",
+				"list":[
+					{
+						"title":"Live Soloist",
+						"description":"Responsive Bootstrap Template",
+						"url":"http://tieknot.bitbucket.org/app",
+						"img":"images-compressed/thumbnail-livesoloist.jpg"
+					},
+					{
+						"title":"Tying the Knot",
+						"description":"Responsive Bootstrap Template",
+						"url":"http://tieknot.bitbucket.org/app",
+						"img":"images-compressed/thumbnail-tieknot.jpg"
+					},
+					{
+						"title":"Duterte Generator",
+						"description":"Responsive Bootstrap Template",
+						"url":"http://tieknot.bitbucket.org/app",
+						"img":"images-compressed/thumbnail-duterteismypresident.jpg"
+					}
+				]
+
+			}
 
 		]
 	},
@@ -66,11 +79,13 @@
 				"name" :"Others",
 				"list": [
 					"jquery",
+					"react",
 					"bootstrap",
 					"phalcon",
 					"codeigniter",
-					"underscore",
+					"lodash",
 					"backbone",
+					"webpack",
 					"nodejs",
 
 					"bower",

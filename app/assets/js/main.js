@@ -1,3 +1,9 @@
+// TODO: turn this into webpack
+// TODO: fix text sizes on header, make it larger
+// TODO: add list of works
+// TODO: add ajax popout overlay on click
+// TODO: z-index position absolute all links in landing
+
 (function($, window, document, undefined){
 
 	var isDevelopment = window.location.hostname === 'localhost';
@@ -32,25 +38,12 @@
 
 
 	function domWorkThumbnail(data, isHeader){
-		if(isHeader){
-			var workThumbnailHeader = "<div class='col-sm-6 col-xs-6 col-md-3 work-header'>";
-			workThumbnailHeader +=  "<a href='"+data.url+"'>";
-			workThumbnailHeader +=  	"<img src='"+imageLocation + data.img+"' alt=''>";
-			workThumbnailHeader += 	"<div class='overlay'>";
-			workThumbnailHeader +=		"<h3>"+data.name+"</h3>";
-			workThumbnailHeader +=	"</div>";
-			workThumbnailHeader += "</a>";
-			workThumbnail += "</div>";
-			return workThumbnailHeader;
-		}
 
 		var workThumbnail = "<div class='col-sm-6 col-xs-6 col-md-3 work-item'>";
 		workThumbnail +=  "<a href='"+data.url+"'>";
-		workThumbnail +=  	"<img src='"+imageLocation + data.img+"' alt=''>";
+		workThumbnail +=  	"<img src='"+imageLocation + data.img+"' alt='' class='img-responsive'>";
 		workThumbnail += 	"<div class='overlay'>";
-		workThumbnail +=		"<h5>"+data.title+"</h5>";
-		workThumbnail +=		"<small>"+data.description+"</small>";
-		workThumbnail += 		"<i class='glyphicon glyphicon-link'></i>";
+		workThumbnail +=		"<h4>"+data.title+"</h4>";
 		workThumbnail +=	"</div>";
 		workThumbnail += "</a>";
 		workThumbnail += "</div>";
@@ -69,7 +62,7 @@
 			// Add next button
 			//$work-list.append("<a href='#' class='btn-work-next'><i class='glyphicon glyphicon-chevron-right'></i></a>");
 			$.each(category.list, function(workIndex, work){
-				if(workIndex > 2) return false;
+				if(workIndex > 3) return false;
 				var _workThumbnail = domWorkThumbnail(work);
 				$workList.append(_workThumbnail);
 			});
