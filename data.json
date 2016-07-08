@@ -8,7 +8,7 @@
 				"url": "http://localhost:9000/here",
 				"list":[
 					{
-						"title":"Tying the Knot",
+						"title":"Live Soloist",
 						"description":"Responsive Bootstrap Template",
 						"url":"http://tieknot.bitbucket.org/app",
 						"img":"images-compressed/thumbnail-livesoloist.jpg"
@@ -20,38 +20,13 @@
 						"img":"images-compressed/thumbnail-tieknot.jpg"
 					},
 					{
-						"title":"Tying the Kssssnot",
+						"title":"Duterte Generator",
 						"description":"Responsive Bootstrap Template",
 						"url":"http://tieknot.bitbucket.org/app",
 						"img":"images-compressed/thumbnail-duterteismypresident.jpg"
 					}
 				]
 
-			},
-			{
-				"name": "Play",
-				"img": "",
-				"url": "",
-				"list": [
-					{
-						"title": "Block Menu Demo",
-						"description": "Box hover demo",
-						"url": "https://malkio.github.io/Block-menu-demo/",
-						"img": ""
-					},
-					{
-						"title": "",
-						"description": "",
-						"url": "https://malkio.github.io/random-quote-generator/#",
-						"img": ""
-					},
-					{
-						"title" : "",
-						"description": "",
-						"url": "https://malkio.github.io/tribute-margaret-hamilton/",
-						"img": ""
-					}
-				]
 			}
 
 		]

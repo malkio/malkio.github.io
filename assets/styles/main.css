@@ -677,7 +677,6 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10px;
   width: 100%;
   height: 100%;
   -webkit-transition: background-color 0.5s ease;
@@ -688,21 +687,39 @@ section {
   height: 50px; }
 
 #landing {
+  position: relative;
   background: linear-gradient(165deg, red, darkred);
   padding: 0;
   min-height: inherit;
-  position: relative;
   box-sizing: border-box; }
+  #landing ul {
+    padding-left: 0; }
+    #landing ul > li {
+      display: inline-block;
+      padding: 10px;
+      border-radius: 50%;
+      margin: 0 10px;
+      border: 1px solid darkred;
+      max-height: 50px;
+      max-width: 50px;
+      -webkit-transition: background-color 0.5s;
+      -o-transition: background-color 0.5s;
+      transition: background-color 0.5s; }
+      #landing ul > li svg {
+        height: 100%;
+        width: 100%;
+        fill: #000; }
+      #landing ul > li:hover {
+        background-color: #fff; }
   #landing > div {
     position: absolute;
-    top: 5%;
-    left: 50%; }
-    #landing > div > div {
-      left: -50%; }
-    #landing > div h3 {
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    z-index: 99; }
+    #landing > div h1, #landing > div h2, #landing > div h4, #landing > div h3 {
       background-color: #580000;
       padding: 5px 10px;
-      text-align: center;
       display: inline-block;
       color: #fff; }
 
@@ -721,30 +738,37 @@ section {
     width: 100%;
     height: 100%; }
   #works .work-list {
-    padding-bottom: 2px; }
+    padding: 6px 0; }
   #works .work-header, #works .work-item {
-    padding: 0 1px;
+    padding: 6px;
     box-sizing: border-box;
     position: relative; }
-  #works .work-header:hover .overlay {
-    background-color: rgba(255, 255, 255, 0.95); }
-  #works .work-header .overlay {
-    text-align: center;
-    color: #425161;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-right: 4px solid #d9d9d9; }
-  #works .work-item:hover .overlay {
-    color: red;
-    background-color: rgba(255, 255, 255, 0.95); }
-    #works .work-item:hover .overlay small {
-      color: #e60000; }
-  #works .work-item .overlay {
-    text-align: center;
-    color: transparent; }
-    #works .work-item .overlay i {
-      display: block;
-      padding-top: 15px;
-      font-size: 2.2em; }
+  #works .work-item {
+    border: 1px solid transparent;
+    -webkit-transition: border-color font-color 0.8s ease;
+    -o-transition: border-color font-color 0.8s ease;
+    transition: border-color font-color 0.8s ease; }
+    #works .work-item:hover .overlay {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.7); }
+    #works .work-item .overlay {
+      text-align: center;
+      padding-top: 10px;
+      color: transparent;
+      width: 94%;
+      height: 94%;
+      left: 3%;
+      right: 3%;
+      top: 3%;
+      bottom: 3%; }
+      #works .work-item .overlay i {
+        display: block;
+        padding-top: 15px;
+        font-size: 2.2em; }
+    #works .work-item:hover {
+      border: 1px solid #333; }
+    #works .work-item h1, #works .work-item h2, #works .work-item h3, #works .work-item h4, #works .work-item h5 {
+      font-family: 'Arial'; }
 
 #simple-background span {
   margin: 2px 4px;
