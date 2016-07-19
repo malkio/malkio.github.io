@@ -1,0 +1,188 @@
+{
+	"works":{
+		"total_works":3,
+		"categories":[
+			{
+				"name":"Recent",
+				"img": "portfolio_01.jpg",
+				"url": "http://localhost:9000/here",
+				"list":[
+					{
+						"title":"Live Soloist",
+						"description":"Responsive Bootstrap Template",
+<<<<<<< HEAD:app/data.json
+						"url":"http://livesoloist.bitbucket.org",
+=======
+						"url":"http://tieknot.bitbucket.org/app",
+>>>>>>> 9cf8736617e919ab96af7c0f964894972c843b24:data.json
+						"img":"images-compressed/thumbnail-livesoloist.jpg"
+					},
+					{
+						"title":"Tying the Knot",
+						"description":"Responsive Bootstrap Template",
+						"url":"http://tieknot.bitbucket.org/app",
+						"img":"images-compressed/thumbnail-tieknot.jpg"
+					},
+					{
+						"title":"Duterte Generator",
+						"description":"Responsive Bootstrap Template",
+<<<<<<< HEAD:app/data.json
+						"url":"http://malkio.github.io/duterteismypresident",
+						"img":"images-compressed/thumbnail-duterteismypresident.jpg"
+					}
+				]
+
+			}
+		]
+	},
+
+=======
+						"url":"http://tieknot.bitbucket.org/app",
+						"img":"images-compressed/thumbnail-duterteismypresident.jpg"
+					}
+				]
+
+			}
+>>>>>>> 9cf8736617e919ab96af7c0f964894972c843b24:data.json
+
+	"experimental-works": {
+		"list": [
+			{
+				"title": "One Page ReactJS and Bootstrap",
+				"description": "A tribute page of margaret Hamilton to be written on reactjs (Unfinished)",
+				"link": "https://malkio.github.io/tribute-margaret-hamilton/"
+			},
+			{
+				"title": "Button Menu Hover",
+				"description": "Demo of css3 hover and transform animations without any use of Javascript",
+				"link": "https://malkio.github.io/Block-menu-demo/"
+			},
+			{
+				"title": "Marvel Intro Transition",
+				"description": "Attempt imitation of the marvel movies intro, without Javascript :D",
+				"link": "https://malkio.github.io/marvel-intro-demo/"
+			},
+			{
+				"title": "Random Ajax",
+				"description": "Fetches a random quote from the internet and displays",
+				"link": "http://malkio.github.io/random-quote-generator/"
+			},
+			{
+				"title": "Android Fit App & Landing Page",
+				"description": "Fetches a list of diet plan from the cloud. Depending on the user's weight, calculates and serves best diet plan for a month depending on the user's choice whether he or she likes to increase or reduce his weight.",
+				"link": "http://maxmenthol.bitbucket.org/"
+			}
+		],
+		"thumbnail-list": [
+			{
+				"title": "",
+				"description": "A simple popup plugin for javascript ",
+				"link": "https://github.com/malkio/curly-popup",
+				"img": "images-compressed/jquery-plugin.jpg"
+			}
+		]
+	},
+
+
+	"background": {
+		"categories": [
+			{
+				"name" :"Languages",
+				"list": [
+					"javascript",
+					"java (android)",
+					"php"
+				]
+			},
+			{
+				"name" :"Databases",
+				"list": [
+					"mysql",
+					"mongodb",
+					"couchdb",
+					"pouchdb",
+					"sqlite (ANDROID)",
+					"backendless (BAAS)",
+					"parse (BAAS)"
+				]
+			},
+			{
+				"name" :"Preprocessors",
+				"list": [
+					"sass (CSS)",
+					"less (CSS)",
+					"babel (JAVASCRIPT)",
+					"typescript (JAVASCRIPT)",
+					"coffeescript (JAVASCRIPT)"
+				]
+			},
+			{
+				"name" :"Tools",
+				"list": [
+					"git",
+					"parse cloudcode",
+					"terminal (Unix)",
+					"grunt",
+					"yoeman",
+					"jekyll",
+					"bower"
+				]
+			},
+			{
+				"name" :"Others",
+				"list": [
+					"jquery",
+					"react",
+					"bootstrap",
+					"phalcon",
+					"codeigniter",
+					"lodash",
+					"backbone",
+					"webpack",
+					"nodejs",
+
+					"bower",
+					"homebrew",
+
+					"jade test",
+					"linters",
+
+					"heroku",
+					"rackspace",
+					"fortrabbit",
+					"digitalocean",
+					"mongolabs",
+
+					"git-pages",
+					"magento",
+					"wordpress",
+					"google maps android",
+					"google maps javascript",
+					"google maps geocoding",
+					"google places",
+
+					"youtube api",
+					"nodewebkit",
+					"twitch api",
+					"openweather api",
+
+					"ajax",
+					"json",
+					"markdown",
+					"regedit",
+
+					"SOLID",
+					"oop",
+					"mvc",
+					"mvvm",
+					"constructor pattern",
+					"modular pattern",
+					"observer pattern",
+					"factory pattern",
+					"revealing module"
+				]
+			}
+
+		]
+	}
+}
