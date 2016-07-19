@@ -435,6 +435,7 @@ section {
 .section-bar {
 	background-color:darken($maincolor1, 5%);
 	margin-bottom: 2px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	font-family: 'edge';
 	.section-title {
 		line-height: 1;
@@ -458,6 +459,70 @@ section {
 	}
 }
 
+.card {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card {
+	box-sizing: border-box;
+	border-radius: 2px;
+	background-clip: padding-box;
+	span.card-title {
+		color: #fff;
+		font-size: 24px;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+	.card-image {
+		position: relative;
+		overflow: hidden;
+	}
+	.card-image img {
+		border-radius: 2px 2px 0 0;
+		background-clip: padding-box;
+		position: relative;
+		z-index: -1;
+	}
+	.card-image span.card-title {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 16px;
+	}
+	.card-content {
+		padding: 16px;
+		border-radius: 0 0 2px 2px;
+		background-clip: padding-box;
+		box-sizing: border-box;
+	}
+	.card-content p {
+		margin: 0;
+		color: inherit;
+	}
+	.card-content span.card-title {
+		line-height: 48px;
+	}
+	.card-action {
+		border-top: 1px solid rgba(160, 160, 160, 0.2);
+		padding: 10px 16px 10px 16px;
+	}
+	.card-action a {
+		color: #ffab40;
+		transition: color 0.3s ease;
+		text-transform: uppercase;
+	}
+	.card-action a:hover {
+		color: #ffd8a6;
+		text-decoration: none;
+	}
+	.card-link {
+		height:40px;
+		width:40px;
+		padding-top:8px;
+	}
+
+}
+
 .overlay {
 	position: absolute;
 	top: 0;
@@ -479,7 +544,7 @@ section {
 	padding: 0;
 	min-height:inherit;
 	box-sizing: border-box;
-
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	ul {
 		padding-left:0;
 		> li {
@@ -496,10 +561,10 @@ section {
 			transition: background-color 0.5s;
 
 			svg{
-			    height: 100%;
-			    width: 100%;
-			    fill: #000;
-		    	}
+				height: 100%;
+				width: 100%;
+				fill: #000;
+			}
 
 			&:hover {
 				background-color: #fff;
@@ -575,9 +640,16 @@ section {
 		}
 		&:hover {
 			border: 1px solid #333;
+			h1,h2,h3,h4,h5 {
+				background-color:#000;
+				color:#fff;
+			}
 		}
 
 		h1,h2,h3,h4,h5 {
+			font-weight:bolder;
+			display:inline-block;
+			padding:4px;
 			font-family: 'Arial';
 		}
 
@@ -585,8 +657,15 @@ section {
 }
 
 #experimental-works{
+	.section-bar {
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+		margin-bottom: 30px;
+	}
 	.list-group {
-		padding-top: 30px;
+		.list-group-item {
+			padding-bottom:25px;
+			padding-top:10px;
+		}
 	}
 }
 
@@ -605,6 +684,7 @@ section {
 	position:relative;
 	.container { position: relative; }
 	.section-bar{
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 		position: absolute;
 		top: 0;
 		left:0;
@@ -630,8 +710,9 @@ section {
 		//@include linear-gradient(to bottom, darken(red, 5%) 30%, darkred 80%, darken(red, 40%) 100%);
 		background-color: $maincolor1;
 		text-align: center;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 		h3{ font-family: 'Arial'; }
-		img { margin: 0 auto; padding-top: -10px; }
+		img { margin: 0 auto; padding-top: -10px;  }
 		.image-container {
 			padding: 0 10%;
 			max-height:300px;
@@ -654,7 +735,7 @@ section {
 }
 
 footer {
-	padding: 60px 0 80px 0;
+	padding: 40px 0 30px 0;
 	background-color: lighten(#384452, 0%);
 	color: #fff;
 	ul {

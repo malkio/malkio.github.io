@@ -59,6 +59,14 @@
 				"description": "Fetches a list of diet plan from the cloud. Depending on the user's weight, calculates and serves best diet plan for a month depending on the user's choice whether he or she likes to increase or reduce his weight.",
 				"link": "http://maxmenthol.bitbucket.org/"
 			}
+		],
+		"thumbnail-list": [
+			{
+				"title": "",
+				"description": "A simple popup plugin for javascript ",
+				"link": "https://github.com/malkio/curly-popup",
+				"img": "images-compressed/jquery-plugin.jpg"
+			}
 		]
 	},
 
