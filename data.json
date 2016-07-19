@@ -10,11 +10,7 @@
 					{
 						"title":"Live Soloist",
 						"description":"Responsive Bootstrap Template",
-<<<<<<< HEAD:app/data.json
 						"url":"http://livesoloist.bitbucket.org",
-=======
-						"url":"http://tieknot.bitbucket.org/app",
->>>>>>> 9cf8736617e919ab96af7c0f964894972c843b24:data.json
 						"img":"images-compressed/thumbnail-livesoloist.jpg"
 					},
 					{
@@ -26,7 +22,6 @@
 					{
 						"title":"Duterte Generator",
 						"description":"Responsive Bootstrap Template",
-<<<<<<< HEAD:app/data.json
 						"url":"http://malkio.github.io/duterteismypresident",
 						"img":"images-compressed/thumbnail-duterteismypresident.jpg"
 					}
@@ -36,14 +31,6 @@
 		]
 	},
 
-=======
-						"url":"http://tieknot.bitbucket.org/app",
-						"img":"images-compressed/thumbnail-duterteismypresident.jpg"
-					}
-				]
-
-			}
->>>>>>> 9cf8736617e919ab96af7c0f964894972c843b24:data.json
 
 	"experimental-works": {
 		"list": [
