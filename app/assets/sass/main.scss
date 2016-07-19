@@ -389,6 +389,32 @@ iframe {
 	z-index: 5;
 }
 
+.list-group {
+	.list-group-item{
+		border-left:none;
+		border-right:none;
+		background-color: rgb(250,250,250);
+		.badge{
+			background-color:darkred;
+			display: none;
+		}
+		&:hover {
+			.badge {
+				display: inline;
+			}
+			background-color: rgb(240,240,240);
+		}
+		&:first-child,
+		&:last-child{
+			border-radius: 0;
+		}
+		&.active{
+			background-color: #c0c0c0;
+			border: #999;
+		}
+	}
+}
+
 span.label-default {
 	background-color: lighten(#384452, 5%);
 }
@@ -558,6 +584,11 @@ section {
 	}
 }
 
+#experimental-works{
+	.list-group {
+		padding-top: 30px;
+	}
+}
 
 #simple-background {
 	span {
@@ -587,14 +618,14 @@ section {
 	padding: 0;
 	background-color:darken($maincolor1, 8%);
 	color: red;
-	min-height: 80vh;
+	min-height: 90vh;
 	text-align: center;
 	color: darken(gray, 15%);
 	p{
 		margin:15px 0;
 	}
 	.details {
-		height:80vh;
+		height:90vh;
 		padding: 5% 10px 10px 10px;
 		//@include linear-gradient(to bottom, darken(red, 5%) 30%, darkred 80%, darken(red, 40%) 100%);
 		background-color: $maincolor1;

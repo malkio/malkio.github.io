@@ -162,7 +162,7 @@ grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
 grunt.registerTask('build', [
 	'htmlhint',
-	'jshint',
+	//'jshint',
 	'sass:dist'
 ]);
 

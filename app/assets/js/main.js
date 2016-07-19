@@ -87,7 +87,6 @@
 	}
 
 	function buildFooterRecentWork(data) {
-
 		var workData = data.works;
 		var $listContainer = $(".list-recent-works");
 		var $list = $("<ul></ul");
@@ -97,12 +96,21 @@
 		$listContainer.append($list);
 	}
 
-	function initialize(data){
 
-		buildWorkSection(data);
-
-		buildBackgroundSection(data);
-
-		buildFooterRecentWork(data);
+	function buildExperimentalWorkSection(data){
+		var workDataList = data["experimental-works"].list;
+		var container = $('#experimental-works').find('.list-group');
+		for(var i=0; i<workDataList.length; i++){
+			container.append('<a href="'+workDataList[i].link+'" class="list-group-item">'+workDataList[i].title+'<br><small>'+workDataList[i].description+'</small> <span class="badge">View</span></a>');
+		}
 	}
+
+	function initialize(data) {
+		buildWorkSection(data);
+		buildExperimentalWorkSection(data);
+		buildBackgroundSection(data);
+		//buildFooterRecentWork(data);
+	}
+
+
 }(jQuery, window, document, undefined));
